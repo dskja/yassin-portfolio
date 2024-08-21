@@ -18,10 +18,10 @@ export default function Home() {
         <Image src={Background} alt="background_top" className={styles.image} priority></Image>
         <div className={styles.hero}>
           <div className={styles.leftHero}>
-            <span className={styles.hoverMe}>Currently in beta</span>
+            <span className={styles.hoverMe}>Derzeit in der Beta-Phase</span>
             <h2 className={styles.hello}>Hallo!</h2>
             <p className={styles.paragraph}>
-              My name is <span className={styles.name}>Yassin</span> aka Hades,
+              Mein Name ist <span className={styles.name}>Yassin</span> aka Hades,
               <br />
               Internet Persönlichkeit, Programmierer usw. (Kein Bock alles aufzulisten).
             </p>
