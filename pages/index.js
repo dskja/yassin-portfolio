@@ -38,7 +38,7 @@ export default function Home() {
         </div>
         <Image src={Background} alt="background_bottom" className={styles.imageBottom} priority></Image>
           <div className={styles.typeWriter}>
-          <h1>Featured Work</h1>
+          <h1>Projekte</h1>
           </div>
         <div className={styles.myWork} id="my_work">
           <div className={styles.singleWork}>
