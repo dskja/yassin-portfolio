@@ -9,7 +9,7 @@ import Layout from '../src/components/Layout';
 
 export default function Home() {
   const Spline = dynamic(() => import("@splinetool/react-spline"), {
-    loading: () => <p>Loading...</p>,
+    loading: () => <p>Laden...</p>,
   })
 
   return (
@@ -21,14 +21,14 @@ export default function Home() {
             <span className={styles.hoverMe}>Currently in beta</span>
             <h2 className={styles.hello}>Hallo!</h2>
             <p className={styles.paragraph}>
-              My name is <span className={styles.name}>Yassin</span> aka KapitCha,
+              My name is <span className={styles.name}>Yassin</span> aka Hades,
               <br />
               Internet Persönlichkeit, Programmierer usw. (Kein Bock alles aufzulisten).
             </p>
             <p className={styles.description}>
             Ich bin Webentwickler, ich liebe es, neue Dinge zu kreieren und ich bin immer
               <br />
-              uf der Suche nach neuen Herausforderungen.
+              auf der Suche nach neuen Herausforderungen.
             </p>
             <p className={styles.press}>Drücken sie <span>A</span> um mich zu kontaktieren</p>
           </div>
@@ -53,20 +53,8 @@ export default function Home() {
           <div className={styles.singleWork}>
             <h3>SzeneChat</h3>
             <p>SzeneChat ist ein sich in Entwicklung befindendes Projekt welches ein Web Chat ist und viele Möglichkeiten bieten wird.</p>
-          </div>
-          <div className={styles.singleWork}>
-            <h3>Data Fetching</h3>
-            <p>Data Fetching methods that run on the server and enable you to render content in different ways.</p>
-          </div>
-          <div className={styles.singleWork}>
-            <h3>Data Fetching</h3>
-            <p>Data Fetching methods that run on the server and enable you to render content in different ways.</p>
-          </div>
-          <div className={styles.singleWork}>
-            <h3>Data Fetching</h3>
-            <p>Data Fetching methods that run on the server and enable you to render content in different ways.</p>
-          </div>
-        </div>
+            </div>
+            </div>
         <footer className={styles.footer}>
           <div className={styles.socialMedia}>
             <a aria-label="GitHub" target="_blank" href="https://github.com/dskja">
