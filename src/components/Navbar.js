@@ -26,7 +26,7 @@ export default function Navbar() {
             <Modal showModal={isOpen} setShowModal={toggleIsOpen} />
             <section className={styles.container}>
                 <div className={styles.header}>
-                    <h1>Kapitcha</h1>
+                    <h1>Yassin</h1>
                     <div className={styles.rightHeader}>
                         <button className={styles.work}>
                             Work
